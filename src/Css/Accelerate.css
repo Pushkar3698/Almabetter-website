@@ -1,0 +1,31 @@
+.acc-container {
+  width: 100%;
+  padding: 0 15px;
+}
+.acc-main {
+  width: 80%;
+  height: 576px;
+  overflow: hidden;
+  margin: 50px auto;
+  position: relative;
+}
+.acc-main img {
+  height: 100%;
+  width: 100%;
+}
+.acc-content,
+.acc-image {
+  position: absolute;
+}
+.acc-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+.acc-content p {
+  width: 50%;
+  font-weight: 700;
+}

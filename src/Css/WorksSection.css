@@ -1,0 +1,75 @@
+.work-container {
+  width: 100%;
+  height: 100vh;
+  margin: 180px 0;
+  overflow: hidden;
+}
+.work-main {
+  width: 80%;
+  height: 100%;
+  background: #fcf4f5;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.work-heading {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+  height: 60px;
+  letter-spacing: 5px;
+}
+.work-section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.work-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 700;
+}
+.work-card .left {
+  width: 200px;
+}
+.work-transition {
+  transition: 0.8s all ease-in-out;
+}
+
+.work-card .right {
+  width: 300px;
+}
+.work-circle {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1120px) {
+  .work-card {
+    font-size: 14px;
+  }
+  .work-circle img {
+    width: 50px;
+  }
+  .work-heading h1 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .work-card {
+    font-size: 11px;
+    padding: 0 10px;
+  }
+  .work-circle img {
+    width: 35px;
+  }
+  .work-circle {
+    margin: 0 15px;
+  }
+}
